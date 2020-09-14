@@ -9,7 +9,7 @@ Interested to work as a Junior Front-end developer. I have a great desire to lea
 
 ## Skills
 * HTML/CSS coding,
-*	flexbox / grid layouts, 
+* flexbox / grid layouts, 
 * adaptive layouts,
 * Bootstrap grid layout,
 * basic JavaScript / jQuery,
