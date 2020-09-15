@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		.page-header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			margin: 0 auto;
+			width: 1024px;
+		}
+
+		.section__title {
+			text-align: center;
+		}
+
+		.page-main {
+			width: 1024px;
+			margin: 0 auto;
+		}
+
+		.contacts,
+		.career,
+		.skills,
+		.experience,
+		.education,
+		.english {
+			margin-bottom: 40px;
+		}
+
+		.contacts__list {
+			margin: 10px 0;
+			padding: 10px 0;
+			list-style: none;
+		}
+
+		.contacts__item {
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		.career__text,
+		.english__text {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.skills__list,
+		.experience__list,
+		.education__list {
+			margin: 10px 0;
+			padding: 10px 0;
+		}
+
+		.skill__item,
+		.experience__item,
+		.education__item {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.experience__link {
+			color: #222222;
+			cursor: pointer;
+		}
+
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CV</title>
+</head>
+<body>
+	<header class="page-header">
+		<h1 class="page-title">Aleksandr Zanko</h1>
+		<img class="page-header__img" src="Background.jpg" alt="Aleksandr-Zanko">
+	</header>
+
+	<main class="page-main">
+		<section class="contacts">
+			<h2 class="section__title">Contacts</h2>
+			<ul class="contacts__list">
+				<li class="contacts__item">email: SashaZanko@mail.ru</li>
+				<li class="contacts__item">phone: +375291479923</li>
+			</ul>
+		</section>
+
+		<section class="career">
+			<h2 class="section__title">Career Objective</h2>
+			<p class="career__text">Interested to work as a Junior Front-end developer. I have a great desire to learn and develop in the profession.</p>
+		</section>
+
+		<section class="skills">
+			<h2 class="section__title">Skills</h2>
+			<ul class="skills__list">
+				<li class="skill__item">HTML/CSS coding</li>
+				<li class="skill__item">flexbox / grid layouts</li>
+				<li class="skill__item">adaptive layouts</li>
+				<li class="skill__item">Bootstrap grid layout</li>
+				<li class="skill__item">basic JavaScript / jQuery</li>
+				<li class="skill__item">work with jQuery plugins</li>
+				<li class="skill__item">Sass</li>
+				<li class="skill__item">build project in Gulp</li>
+			</ul>
+		</section>
+
+		<section class="experience">
+			<h2 class="section__title">Experience</h2>
+			<ul class="experience__list">
+				<li class="experience__item">complite courses HTML Academy <a class="experience__link" href="https://htmlacademy.ru/profile/id1186951">https://htmlacademy.ru/profile/id1186951</a></li>
+				<li class="experience__item">complite courses "Basic HTML/CSS" and "Advanced HTML/CSS" from HTML Academy</li>
+				<li class="experience__item">complete courses "Basic JavaScript" and "First steps of PHP" by D.Lavrik <a class="experience__link" href="https://www.youtube.com/c/dmitrylavrik">https://www.youtube.com/c/dmitrylavrik</a></li>
+				<li class="experience__item">made and support the website <a class="experience__link" href="http://www.wincom.by/">http://www.wincom.by/</a></li>
+			</ul>
+		</section>
+
+		<section class="education">
+			<h2 class="section__title">Education</h2>
+			<ul class="education__list">
+				<li class="education__item">2010-2015. BSU, History faculty.</li>
+				<li class="education__item">2013-2015. BSU, Business institute.</li>
+			</ul>
+		</section>
+
+		<section class="english">
+			<h2 class="section__title">English language</h2>
+			<p class="english__text">
+				A2. I have been practicing English during II European Games in Minsk. I worked in athethes village. I helped athletes and WADA member.
+			</p>
+		</section>
+	</main>
+
+</body>
+</html>
